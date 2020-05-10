@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+header {
+  background: silver;
+  padding: 1rem 1rem;
+}
+
+.circle-button {
+  box-shadow: inset 0px 0px 0px 4px black;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  transition: .3s;
+}
+
+.circle-button:hover {
+box-shadow: inset 0px 0px 0px 12px black;
+}
+
+.circle-button2 {
+  box-shadow: inset 0px 0px 0px 4px black;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  transition: .3s;
+}
+
+.circle-button2:hover {
+box-shadow: inset 0px 0px 0px 8px black;
+height: 30px;
+width: 30px;
+}
+
+.buttons {
+    margin-top: 1rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-text: center;
+    grid-gap:20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
